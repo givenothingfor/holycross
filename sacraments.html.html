@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Holy Cross Parish</title>
+    <script src="https://kit.fontawesome.com/86dc5b28fc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="file:///C:/Users/Virgo/Desktop/another%201/index.html">HOME</a></li>
+                    <li><a href="file:///C:/Users/Virgo/Desktop/another%201/sacraments.html.html">SACRAMENTS</a></li>
+                    <li><a href="file:///C:/Users/Virgo/Desktop/another%201/donate.html">DONATE</a></li>
+                    <li><a href="file:///C:/Users/Virgo/Desktop/another%201/about.html">ABOUT US</a></li>
+                    <li><a href="file:///C:/Users/Virgo/Desktop/another%201/contact.html.html">CONTACT US</a></l>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Sacraments</h1>
+    </section>
+
+<!------Sacraments------>
+
+<section class="sacraments">
+    <h1>Sacraments</h1>
+    <p>A Christian rite that are efficacious signs of grace, instituted by Christ and entrusted by the Church through which divine life is given.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Baptism</h3>
+            <p>Saturday and Sunday<br>10:00am</p>
+        </div>
+        &nbsp;&nbsp;&nbsp;
+        <div class="course-col">
+            <h3>Wedding</h3>
+            <p>It is by appointment</p>
+    </div>
+    &nbsp;&nbsp;&nbsp;
+    <div class="course-col">
+        <h3>Anointing of the Sick</h3>
+        <p>Any time upon requests</p>
+    </div>
+    &nbsp;&nbsp;&nbsp;
+    <div class="course-col">
+        <h3>Confession</h3>
+        <p>Monday to Friday<br>Before and After Mass</p>
+    </div>
+    &nbsp;&nbsp;&nbsp;
+    <div class="course-col">
+        <h3>Counselling</h3>
+        <p>It is by appointment</p>
+    </div>
+    
+
+</section>
+
+<!-------Ministries------>
+
+<section class="ministries">
+    <h1>Our Ministries</h1>
+    <p>The Ministry senses that God wishes for him or her to devote their life to serving in the local church or ministry fulltime.</p>
+
+    <div class="row">
+        <div class="ministries-col">
+            <img src="images/lectors.jfif">
+            <h3>Ministry of Lectors and Commentators</h3>
+            <p>They welcome the assembly before mass and also proclaims the word of God in the first and second readings.<p>
+        </div>
+        &nbsp;&nbsp;&nbsp;
+        <div class="ministries-col">
+            <img src="images/greeters.jfif">
+            <h3>Ministry of Greeters</h3>
+            <p>The Ministry of Greeters is to provide hospitality and a friendly smile to attendees<p>
+        </div>
+        &nbsp;&nbsp;&nbsp;
+        <div class="ministries-col">
+            <img src="images/lay.jfif">
+            <h3>Lay Ministers</h3>
+            <p>Lay persons who assist the priest and deacon in distributing Holy Communion to the faithful during liturgy.<p>
+        </div>
+        &nbsp;&nbsp;&nbsp;
+        <div class="ministries-col">
+            <img src="images/musis.webp">
+            <h3>Music Ministry</h3>
+            <p>Musical ministry is an important part of our parish life. Vocalists and instrumentalists assist the worshiping congregation in lifting its prayer to God.<p>
+        </div>
+</div>
+
+    </section>
+
+<section class="ministries">
+       <div class="row">
+        <div class="ministries-col">
+            <img src="images/worship.png">
+            <h3>Worship Ministry</h3>
+            <p>The goal of the liturgy team at Holy Cross parish is to develop the worship and sacramental life of the parish so that all are nourished in faith and invited to Pray<p>
+        </div>
+        &nbsp;&nbsp;&nbsp;
+        <div class="ministries-col">
+            <img src="images/knights.jfif">
+            <h3>Knights of the Altar</h3>
+            <p>It is an organization that is formed by altar boys for preparatory steps to priesthood<p>
+        </div>
+        &nbsp;&nbsp;&nbsp;
+        <div class="ministries-col">
+            <img src="images/guardian.jpg">
+            <h3>Guardian of the Knights of the Altar</h3>
+            <p>They are the support body of the organization, composed of the knights parents and guardians.<p>
+        </div>
+        &nbsp;&nbsp;&nbsp;
+        <div class="ministries-col">
+            <img src="images/youth.jfif">
+            <h3>Parish Youth Ministry</h3>
+            <p>Youth ministry focuses on inviting those who are not already part of the church into the deeper narrative of God's plan.<p>
+        </div>
+</div>
+
+    </section>
+
+
+<!------- Footer ------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We like to get to know <br> your concerns and opinions</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-envelope"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> BeFrAn</p>
+</section>
+
+
+
+<!------Javascript for Toggle Menu------->    
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

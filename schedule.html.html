@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Holy Cross Parish</title>
+    <script src="https://kit.fontawesome.com/86dc5b28fc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="file:///C:/Users/Virgo/Desktop/another%201/index.html">HOME</a></li>
+                    <li><a href="file:///C:/Users/Virgo/Desktop/another%201/sacraments.html.html">SACRAMENTS</a></li>
+                    <li><a href="file:///C:/Users/Virgo/Desktop/another%201/donate.html">DONATE</a></li>
+                    <li><a href="file:///C:/Users/Virgo/Desktop/another%201/about.html">ABOUT US</a></li>
+                    <li><a href="file:///C:/Users/Virgo/Desktop/another%201/contact.html.html">CONTACT US</a></l>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Mass Schedule</h1>
+    </section>
+
+<!--------- Mass Schedule ------->
+
+<section class="mass-schedule">
+
+    <div id="church_schedule">
+        <fieldset>
+            <div id="schedule">
+                <div style="overflow-x:auto">
+    <table id="schedules">
+        <caption>Mass Schedules of Holy Cross Parish Makati</caption>
+       <thead>
+                <tr><th>Sunday<div class="dates">December 11</div></th>
+                <th>Monday<div class="dates">December 12 -Today</div></th>
+                <th>Tuesday<div class="dates">December 13</div></th>
+                <th>Wednesday<div class="dates">December 14</div></th>
+                <th>Thursday<div class="dates">December 15</div></th>
+                <th>Friday<div class="dates">December 16</div></th>
+                <th>Saturday<div class="dates">December 17</div></th>
+                </tr>
+            </thead>
+    
+    <tbody>
+
+        <td><p class="schedule">6:00 AM - 7:00 AM</p><p class="comment"></p></td>
+        <td><p class="schedule">6:30 PM - 7:30 PM</p><p class="comment"></p></td>
+        <td><p class="schedule">6:30 PM - 7:30 PM</p><p class="comment"></p></td>
+        <td><p class="schedule">6:00 AM - 7:00 AM</p><p class="comment"></p></td>
+        <td><p class="schedule">6:30 PM - 7:30 PM</p><p class="comment"></p></td>
+        <td><p class="schedule">6:00 AM - 7:00 AM</p><p class="comment"></p></td>
+        <td><p class="schedule">6:00 AM - 7:00 AM</p><p class="comment"></p></td>
+    </tbody>
+
+    <tbody>
+        <tr><td><p class="schedule">8:00 AM - 9:00 AM</p><p class="comment"></p></td>&nbsp;</td><td>&nbsp;</td>
+            <td><p class="schedule">6:30 PM - 7:30 PM</p><p class="comment"></p></td>&nbsp;</td>
+            <td><p class="schedule">6:30 PM - 7:30 PM</p><p class="comment"></p></td>
+            <td><p class="schedule">6:30 PM - 7:30 PM</p><p class="comment"></p></td></tr>
+    </tbody>
+
+    <tbody>
+        <tr><td><p class="schedule">10:00 AM - 11:00 AM</p><p class="comment"></p></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+    </tbody>
+
+    <tbody>
+        <tr><td><p class="schedule">4:00 PM - 5:00 PM</p><p class="comment"></p></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+    </tbody>
+    
+    <tbody>
+        <tr><td><p class="schedule">6:00 PM - 7:00 PM</p><p class="comment"></p></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+    </tbody>
+    <tfoot>
+        <tr><td colspan="7"><p id="donate2">If you like the content and purpose of this site, please consider donating.</p></td></tr> 
+    </tfoot>
+            </table>   
+
+            </div>
+        </fieldset>
+    </div>
+</section>
+
+    
+
+<!------- Footer ------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We like to get to know <br> your concerns and opinions.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-envelope"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> BeFrAn</p>
+</section>
+
+
+
+<!------Javascript for Toggle Menu------->    
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
